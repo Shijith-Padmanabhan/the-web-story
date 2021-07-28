@@ -1,0 +1,49 @@
+.profileCardPhoto{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profileCardPhoto > img{
+    border-radius: 50%;
+    margin-top: -50px;
+    margin-bottom: 20px;
+
+    background: #ffffff;
+    box-shadow:  -20px -20px 60px #c1c1c1, 
+                20px 20px 60px #ffffff;
+}
+
+.profileCardOuter{
+    margin : 100px 20px;
+    border-radius: 20px;
+    background: #e3e3e3;
+    box-shadow:  20px 20px 60px #c1c1c1, 
+                -20px -20px 60px #ffffff;
+}
+
+.profileCardText{
+    padding : 0px 30px 30px 30px;
+}
+
+.profileCardHeading{
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    font-size: 18px;
+}
+
+.profileCardDescription{
+    font-size: 16px;
+    color : grey;
+    line-height: 22px;
+}
+
+a{
+    color : #000;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
